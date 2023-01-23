@@ -1,0 +1,132 @@
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+body{
+	margin: 0;
+}
+.top-background{
+	background-color: whitesmoke;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: centre;
+}
+.menu{
+	text-align: center;
+	font-size: 30px;
+
+}
+.menu-ul{
+	padding: 10px;
+}
+.menu-ul li{
+	display: inline-block;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	padding: 10px 30px;
+
+}
+a{
+	border-bottom: 1px solid transparent;
+	color: saddlebrown;
+	text-decoration: none;
+
+}
+a:hover{
+	border-bottom: 1px solid white;
+
+}
+
+.sticky{
+	background: #0f4c75;
+	position: fixed;
+	width: 100;
+
+}
+
+.sticky ul{
+	padding: 0;
+	margin: 10px;
+
+}
+.page-title{
+	text-align: center;
+	font-size: 50px;
+	padding: 200px;
+	color: white;
+	letter-spacing: 10px;
+	text-shadow: 0 0 5px #0f4c75 ;
+
+
+}
+
+.description{
+	font-variant:small-caps ;
+	font-size: 30px;
+	margin: 20px;
+}
+
+.flex-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+
+}
+
+.why-us-flex-item{
+	background: beige;
+	color: saddlebrown;
+	width: 20%;
+	padding: 40px;
+	margin: 40px;
+	animation: text-pop-up-top 5s ease;
+	border-radius: 10px;
+}
+.block-label{
+	font-variant: small-caps;
+	font-size: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+}
+
+.block-description{
+	text-align: justify;
+
+}
+.block-number{
+	font-weight: bold;
+	font-size: 50px;
+	padding: 20px;
+}
+
+.footer{
+	background: ;
+	text-align: center;
+	padding: 10px;
+	margin-top:40px ;
+
+}
+
+.locations{
+	color: saddlebrown;
+	font-size: 20px;
+	display: inline-block;
+	min-width: 27%;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	padding: 20px;
+	font-weight: bolder;
